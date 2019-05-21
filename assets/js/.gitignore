@@ -1,0 +1,11 @@
+node_modules/
+src/
+test/
+coverage/
+.nyc_output/
+
+.babelrc
+.eslintrc
+webpack.config.js
+package.json
+package-lock.json
