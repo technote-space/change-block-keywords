@@ -4,7 +4,10 @@
 [![PHP: >=5.6](https://img.shields.io/badge/PHP-%3E%3D5.6-orange.svg)](http://php.net/)
 [![WordPress: >=5.2](https://img.shields.io/badge/WordPress-%3E%3D5.2-brightgreen.svg)](https://wordpress.org/)
 
+ブロック検索のキーワードを自由に設定できるようにします。  
 This plugin make it easy to change block's search keywords.
+
+[WordPress公式ディレクトリ](https://ja.wordpress.org/plugins/change-block-keywords/)
 
 ## Screenshots
 
