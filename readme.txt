@@ -4,7 +4,7 @@ Tags: gutenberg, search, keyword
 Requires at least: 5.2
 Requires PHP: 5.6
 Tested up to: 5.2
-Stable tag: 0.0.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,11 +27,12 @@ This plugin needs PHP5.6 or higher.
 
 == Screenshots ==
 
+1. Change block search keywords
+
 == Upgrade Notice ==
 
 == Changelog ==
 
-= 1.0.0 (20xx/yy/zz) =
+= 1.0.0 (2019/5/24) =
 
 * First release
-

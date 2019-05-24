@@ -8,6 +8,8 @@ This plugin make it easy to change block's search keywords.
 
 ## Screenshots
 
+![screenshot-1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/.github/images/screenshot-1.gif)
+
 ## Requirements
 - \>= PHP 5.6
 - \>= WordPress 5.2
