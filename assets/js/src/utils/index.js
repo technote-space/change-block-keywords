@@ -1,3 +1,3 @@
 export { translate } from './translate';
 export { getNamespace, getKeywordsFormComponent, getSetupKeywordsFunc } from './hooks';
-export { getNameKeyword, arrayUniq, copyObj, createState } from './misc';
+export { getNameKeyword, arrayUniq, copyObj, createState, isTargetBlockType } from './misc';
