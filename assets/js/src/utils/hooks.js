@@ -5,6 +5,7 @@ const { select, dispatch } = wp.data;
 import { PLUGIN_NAME } from '../constant';
 import { STORE_NAME } from '../store/constant';
 import { Keywords } from '../components';
+import { isTargetBlockType } from '../utils';
 
 /**
  * @param {string} name name
@@ -19,7 +20,7 @@ export function getNamespace( name ) {
  */
 export function getKeywordsFormComponent() {
 	return createHigherOrderComponent( BlockEdit => props => {
-		if ( ! props.isSelected ) {
+		if ( ! props.isSelected || ! isTargetBlockType( props ) ) {
 			return <BlockEdit { ...props }/>;
 		}
 		return <Fragment>
