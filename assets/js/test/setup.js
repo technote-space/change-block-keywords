@@ -20,4 +20,3 @@ global.wp.element = {};
 global.wp.blocks = {
 	isReusableBlock: blockOrType => blockOrType.name === 'core/block',
 };
-
