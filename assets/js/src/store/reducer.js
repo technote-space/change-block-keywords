@@ -1,7 +1,7 @@
 const { combineReducers, select, dispatch } = wp.data;
 
 import { SET_KEYWORDS, RESET_KEYWORD, INITIALIZED, RESET_ALL } from './constant';
-import { getNameKeyword, arrayUniq, createState, isTargetBlockType } from '../utils';
+import { getNameKeyword, arrayUniq, createState } from '../utils';
 
 /**
  * @param {object} state state
@@ -29,9 +29,6 @@ export function keywords( state = {}, action ) {
 	switch ( action.type ) {
 		case SET_KEYWORDS: {
 			const blockType = select( 'core/blocks' ).getBlockType( action.name );
-			if ( ! isTargetBlockType( blockType ) ) {
-				return state;
-			}
 			blockType.keywords = action.keywords;
 			dispatch( 'core/blocks' ).addBlockTypes( blockType );
 			return createState( state, action.name, action.keywords );
