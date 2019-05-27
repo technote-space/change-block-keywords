@@ -1,6 +1,6 @@
 {
   "name": "change-block-keywords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "change block keywords",
   "scripts": {
     "test": "npm run lint && npm run cover",
