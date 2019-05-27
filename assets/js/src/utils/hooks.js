@@ -20,7 +20,7 @@ export function getNamespace( name ) {
  */
 export function getKeywordsFormComponent() {
 	return createHigherOrderComponent( BlockEdit => props => {
-		if ( ! props.isSelected || ! isTargetBlockType( props ) ) {
+		if ( ! isTargetBlockType( props ) || ! props.isSelected ) {
 			return <BlockEdit { ...props }/>;
 		}
 		return <Fragment>
