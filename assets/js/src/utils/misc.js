@@ -1,3 +1,5 @@
+const { isReusableBlock } = wp.blocks;
+
 /**
  * @param {string} name name
  * @returns {*} keyword
@@ -32,4 +34,12 @@ export function createState( state, key, value ) {
 	const newState = copyObj( state );
 	newState[ key ] = value;
 	return newState;
+}
+
+/**
+ * @param {object} blockOrType block or type
+ * @returns {boolean} start or not
+ */
+export function isTargetBlockType( blockOrType ) {
+	return !! ( blockOrType && blockOrType.name ) && ! isReusableBlock( blockOrType ) && 'core/template' !== blockOrType.name;
 }

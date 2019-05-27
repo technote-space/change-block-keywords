@@ -1,6 +1,6 @@
 require( 'should' );
 
-import { getNameKeyword, arrayUniq, copyObj, createState } from '../src/utils';
+import { getNameKeyword, arrayUniq, copyObj, createState, isTargetBlockType } from '../src/utils';
 
 describe( 'getNameKeyword test', () => {
 	it( 'should get keyword', () => {
@@ -42,5 +42,19 @@ describe( 'createState test', () => {
 		state.test1.should.equal( 'test1' );
 		state.test2.should.equal( 2 ); // eslint-disable-line no-magic-numbers
 		state.test3.should.equal( 3 ); // eslint-disable-line no-magic-numbers
+	} );
+} );
+
+describe( 'isTargetBlockType test', () => {
+	it( 'should true if target block', () => {
+		isTargetBlockType( { name: 'core/paragraph' } ).should.equal( true );
+		isTargetBlockType( { name: 'core/heading' } ).should.equal( true );
+		isTargetBlockType( { name: 'test' } ).should.equal( true );
+	} );
+	it( 'should false if not target block', () => {
+		isTargetBlockType( { name: 'core/block' } ).should.equal( false );
+		isTargetBlockType( { name: 'core/template' } ).should.equal( false );
+		isTargetBlockType( {} ).should.equal( false );
+		isTargetBlockType( null ).should.equal( false );
 	} );
 } );

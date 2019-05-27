@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 1.0.0
+ * @version 1.0.1
  * @author Technote
  * @since 0.0.1
  * @copyright Technote All Rights Reserved
@@ -40,6 +40,7 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 			'wp-element',
 			'wp-components',
 			'wp-plugins',
+			'wp-blocks',
 		], $this->app->get_plugin_version(), false );
 		$this->localize_script( 'change-block-keywords', 'cbkParams', [
 			'translate' => $this->get_translate_data( [

@@ -5,6 +5,7 @@ const { select, dispatch } = wp.data;
 import { PLUGIN_NAME } from '../constant';
 import { STORE_NAME } from '../store/constant';
 import { Keywords } from '../components';
+import { isTargetBlockType } from '../utils';
 
 /**
  * @param {string} name name
@@ -19,7 +20,7 @@ export function getNamespace( name ) {
  */
 export function getKeywordsFormComponent() {
 	return createHigherOrderComponent( BlockEdit => props => {
-		if ( ! props.isSelected ) {
+		if ( ! isTargetBlockType( props ) || ! props.isSelected ) {
 			return <BlockEdit { ...props }/>;
 		}
 		return <Fragment>
@@ -33,9 +34,12 @@ export function getKeywordsFormComponent() {
  * @returns {function(*, *=): *} setup function
  */
 export function getSetupKeywordsFunc() {
-	return ( settings, name ) => {
-		dispatch( STORE_NAME ).initialize( name, settings.keywords );
-		settings.keywords = select( STORE_NAME ).getKeywords( name );
-		return settings;
+	return ( setting, name ) => {
+		if ( ! isTargetBlockType( setting ) ) {
+			return setting;
+		}
+		dispatch( STORE_NAME ).initialize( name, setting.keywords );
+		setting.keywords = select( STORE_NAME ).getKeywords( name );
+		return setting;
 	};
 }
