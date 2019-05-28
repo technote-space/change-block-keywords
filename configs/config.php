@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 1.0.0
+ * @version 1.0.2
  * @author Technote
  * @since 0.0.1
  * @copyright Technote All Rights Reserved
@@ -15,7 +15,7 @@ if ( ! defined( 'CHANGE_BLOCK_KEYWORDS' ) ) {
 return [
 
 	// required wordpress version
-	'required_wordpress_version' => '5.2',
+	'required_wordpress_version' => '5.0',
 
 	// github repo
 	'github_repo'                => 'technote-space/change-block-keywords',

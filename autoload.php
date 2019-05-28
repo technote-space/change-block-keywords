@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Change Block Keywords
-Plugin URI: https://ja.wordpress.org/plugins/change-block-keywords/
+Plugin URI: https://wordpress.org/plugins/change-block-keywords/
 Description: This plugin make it easy to change block's search keywords.
 Author: Technote
-Version: 1.0.1
+Version: 1.0.2
 Author URI: https://technote.space
 Text Domain: change-block-keywords
 Domain Path: /languages/
