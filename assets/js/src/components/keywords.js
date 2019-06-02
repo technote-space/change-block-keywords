@@ -24,14 +24,10 @@ export function Keywords( { props, keywords, setKeywords } ) {
 }
 
 export default compose(
-	withSelect( select => {
-		return {
-			keywords: props => select( STORE_NAME ).getKeywords( props.name ),
-		};
-	} ),
-	withDispatch( dispatch => {
-		return {
-			setKeywords: ( props, keywords ) => dispatch( STORE_NAME ).setKeywords( props.name, keywords ),
-		};
-	} ),
+	withSelect( select => ( {
+		keywords: props => select( STORE_NAME ).getKeywords( props.name ),
+	} ) ),
+	withDispatch( dispatch => ( {
+		setKeywords: ( props, keywords ) => dispatch( STORE_NAME ).setKeywords( props.name, keywords ),
+	} ) ),
 )( Keywords );
