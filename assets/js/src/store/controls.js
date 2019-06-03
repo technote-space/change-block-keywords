@@ -4,14 +4,12 @@
  * @param {object} args args
  * @returns {{args: *[], selectorName: *, storeKey: *, type: string}} control
  */
-export function select( storeKey, selectorName, ...args ) {
-	return {
-		type: 'SELECT',
-		storeKey,
-		selectorName,
-		args,
-	};
-}
+export const select = ( storeKey, selectorName, ...args ) => ( {
+	type: 'SELECT',
+	storeKey,
+	selectorName,
+	args,
+} );
 
 export default {
 	SELECT( { storeKey, selectorName, args } ) {
