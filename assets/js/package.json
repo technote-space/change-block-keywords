@@ -21,7 +21,6 @@
     "babel-register": "^6.26.0",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.13.0",
-    "jsdom": "15.1.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.0",
     "should": "^13.2.3",
