@@ -1,22 +1,27 @@
+const Mousetrap = require( 'mousetrap' );
+global.Mousetrap = Mousetrap;
+global.window.matchMedia = () => ( {
+	matches: true, addListener: () => {
+	},
+} );
 global.cbkParams = {
 	translate: {
 		test: 'テスト',
 	},
 };
-global.wp = {};
-global.wp.components = {};
-global.wp.editor = {};
-global.wp.compose = {
-	compose: () => value => value,
-	createHigherOrderComponent: value => value,
-};
-global.wp.data = {
-	withSelect: () => {
-	},
-	withDispatch: () => {
-	},
-};
-global.wp.element = {};
-global.wp.blocks = {
-	isReusableBlock: blockOrType => blockOrType.name === 'core/block',
+
+const blocks = require( '@wordpress/blocks' );
+const components = require( '@wordpress/components' );
+const compose = require( '@wordpress/compose' );
+const data = require( '@wordpress/data' );
+const editor = require( '@wordpress/editor' );
+const element = require( '@wordpress/element' );
+
+global.wp = {
+	blocks,
+	components,
+	compose,
+	data,
+	editor,
+	element,
 };
