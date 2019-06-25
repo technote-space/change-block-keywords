@@ -1,11 +1,11 @@
-const { createHigherOrderComponent } = wp.compose;
-const { Fragment } = wp.element;
-const { select, dispatch } = wp.data;
-
 import { PLUGIN_NAME } from '../constant';
 import { STORE_NAME } from '../store/constant';
 import { Keywords } from '../components';
 import { isTargetBlockType } from '../utils';
+
+const { createHigherOrderComponent } = wp.compose;
+const { Fragment } = wp.element;
+const { select, dispatch } = wp.data;
 
 /**
  * @param {string} name name

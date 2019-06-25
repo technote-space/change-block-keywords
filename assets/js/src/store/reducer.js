@@ -1,6 +1,6 @@
 const { combineReducers, select, dispatch } = wp.data;
 
-import { SET_KEYWORDS, RESET_KEYWORD, INITIALIZED, RESET_ALL } from './constant';
+import { SET_KEYWORDS, RESET_KEYWORD, INITIALIZED } from './constant';
 import { getNameKeyword, arrayUniq, createState } from '../utils';
 
 /**
@@ -13,8 +13,6 @@ export function hasInitialized( state = {}, action ) {
 		case INITIALIZED: {
 			return createState( state, action.name, true );
 		}
-		case RESET_ALL:
-			return {};
 		default:
 			return state;
 	}

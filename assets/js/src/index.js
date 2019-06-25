@@ -1,7 +1,7 @@
-const { addFilter } = wp.hooks;
-
 import './store';
 import { getNamespace, getKeywordsFormComponent, getSetupKeywordsFunc } from './utils';
+
+const { addFilter } = wp.hooks;
 
 addFilter(
 	'editor.BlockEdit',

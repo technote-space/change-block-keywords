@@ -1,10 +1,12 @@
+import { Helpers } from '@technote-space/gutenberg-utils';
+import { STORE_NAME } from '../store/constant';
+
+const { getTranslator, getEditor } = Helpers;
 const { FormTokenField } = wp.components;
-const { InspectorAdvancedControls } = wp.editor;
+const { InspectorAdvancedControls } = getEditor();
 const { compose } = wp.compose;
 const { withSelect, withDispatch } = wp.data;
-
-import { STORE_NAME } from '../store/constant';
-import { translate } from '../utils';
+const translate = getTranslator( cbkParams );
 
 /**
  * @param {object} props props
@@ -13,15 +15,13 @@ import { translate } from '../utils';
  * @returns {Component} input keywords form
  * @constructor
  */
-export function Keywords( { props, keywords, setKeywords } ) {
-	return <InspectorAdvancedControls>
-		<FormTokenField
-			value={ keywords( props ) }
-			onChange={ tokens => setKeywords( props, tokens ) }
-			label={ translate( 'Set Search Keywords' ) }
-		/>
-	</InspectorAdvancedControls>;
-}
+const Keywords = ( { props, keywords, setKeywords } ) => <InspectorAdvancedControls>
+	<FormTokenField
+		value={ keywords( props ) }
+		onChange={ tokens => setKeywords( props, tokens ) }
+		label={ translate( 'Set Search Keywords' ) }
+	/>
+</InspectorAdvancedControls>;
 
 export default compose(
 	withSelect( select => ( {
