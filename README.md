@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/technote-space/change-block-keywords.svg?branch=master)](https://travis-ci.com/technote-space/change-block-keywords)
 [![Coverage Status](https://coveralls.io/repos/github/technote-space/change-block-keywords/badge.svg?branch=master)](https://coveralls.io/github/technote-space/change-block-keywords?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e883e90c60314ef39dd4a0aab0b7fa3a)](https://www.codacy.com/app/technote-space/change-block-keywords?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=technote-space/change-block-keywords&amp;utm_campaign=Badge_Grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/technote-space/change-block-keywords/badge)](https://www.codefactor.io/repository/github/technote-space/change-block-keywords)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 [![PHP: >=5.6](https://img.shields.io/badge/PHP-%3E%3D5.6-orange.svg)](http://php.net/)
 ![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/change-block-keywords.svg)
