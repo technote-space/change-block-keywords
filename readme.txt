@@ -3,8 +3,9 @@ Contributors: technote0space
 Tags: gutenberg, search, keyword
 Requires at least: 5.0
 Requires PHP: 5.6
-Tested up to: 5.2
-Stable tag: 1.0.3
+Tested up to: 5.2.2
+Stable tag: 1.0.4
+Donate link: https://paypal.me/technote0space
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +14,7 @@ This plugin make it easy to change block's search keywords.
 == Description ==
 
 This plugin make it easy to change block's search keywords.
+[日本語の説明](https://technote.space/change-block-keywords "Documentation in Japanese")
 [GitHub (More details)](https://github.com/technote-space/change-block-keywords)
 [Issues (Reporting a new bug or feature request)](https://github.com/technote-space/change-block-keywords/issues)
 
@@ -31,6 +33,10 @@ This plugin needs PHP5.6 or higher.
 
 == Upgrade Notice ==
 
+= 1.0.4 =
+* リファクタリング及びテスト自動化などを行いました。 [詳細](https://github.com/technote-space/change-block-keywords/issues/24)
+* [すべての差分](https://github.com/technote-space/change-block-keywords/pull/36)
+
 = 1.0.3 =
 * [すべての差分](https://github.com/technote-space/change-block-keywords/pull/17)
 
@@ -42,6 +48,10 @@ This plugin needs PHP5.6 or higher.
 * [すべての差分](https://github.com/technote-space/change-block-keywords/pull/8)
 
 == Changelog ==
+
+= 1.0.4 (2019/6/25) =
+* Added: [CI Tool](https://github.com/technote-space/change-block-keywords/issues/24)
+* Improved: [Consider Compatibility of Gutenberg](https://github.com/technote-space/change-block-keywords/issues/30)
 
 = 1.0.3 (2019/6/3) =
 * Fixed: [Uninstall behavior](https://github.com/wp-content-framework/common/issues/107)
