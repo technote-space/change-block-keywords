@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Keywords should render Keywords: input 1`] = `
+Array [
+  <div
+    className="components-form-token-field"
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyPress={[Function]}
+    tabIndex="-1"
+  >
+    <label
+      className="components-form-token-field__label"
+      htmlFor="components-form-token-input-0"
+    >
+      Set Search Keywords
+    </label>
+    <div
+      className="components-form-token-field__input-container"
+      onMouseDown={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="-1"
+    >
+      <span
+        className="components-form-token-field__token"
+      >
+        <span
+          className="components-form-token-field__token-text"
+          id="components-form-token-field__token-text-0"
+        >
+          <span
+            className="screen-reader-text"
+          >
+            test (1 of 1)
+          </span>
+          <span
+            aria-hidden="true"
+          >
+            test
+          </span>
+        </span>
+        <ForwardRef(IconButton)
+          aria-describedby="components-form-token-field__token-text-0"
+          className="components-form-token-field__remove-token"
+          icon="dismiss"
+          label="Remove item"
+          onClick={[Function]}
+        >
+          <ForwardRef(Button)
+            aria-describedby="components-form-token-field__token-text-0"
+            aria-label="Remove item"
+            className="components-icon-button components-form-token-field__remove-token"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <button
+              aria-describedby="components-form-token-field__token-text-0"
+              aria-label="Remove item"
+              className="components-button components-icon-button components-form-token-field__remove-token"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                className="dashicon dashicons-dismiss"
+                focusable="false"
+                height={20}
+                role="img"
+                viewBox="0 0 20 20"
+                width={20}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8zm5 11l-3-3 3-3-2-2-3 3-3-3-2 2 3 3-3 3 2 2 3-3 3 3z"
+                />
+              </svg>
+            </button>
+          </ForwardRef(Button)>
+        </ForwardRef(IconButton)>
+      </span>
+      <input
+        aria-autocomplete="list"
+        aria-describedby="components-form-token-suggestions-howto-0"
+        aria-expanded={false}
+        className="components-form-token-field__input"
+        disabled={false}
+        id="components-form-token-input-0"
+        onBlur={[Function]}
+        onChange={[Function]}
+        role="combobox"
+        size={1}
+        type="text"
+        value=""
+      />
+    </div>
+    <p
+      className="components-form-token-field__help"
+      id="components-form-token-suggestions-howto-0"
+    >
+      Separate with commas or the Enter key.
+    </p>
+  </div>,
+  Array [
+    <div>
+       
+      Array [
+        "",
+        "",
+        <div
+          className="editor-rich-text block-editor-rich-text"
+        >
+          <div
+            onFocus={[Function]}
+          >
+            <div
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+            >
+              <div
+                className="components-autocomplete"
+                onClick={[Function]}
+              >
+                <p
+                  aria-activedescendant={null}
+                  aria-autocomplete="list"
+                  aria-label="Paragraph block"
+                  aria-multiline={true}
+                  aria-owns={null}
+                  className="block-editor-rich-text__editable editor-rich-text__editable wp-block-paragraph test-block-edit"
+                  contentEditable={true}
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<br data-rich-text-padding=\\"true\\">",
+                    }
+                  }
+                  data-is-placeholder-visible={true}
+                  onBlur={[Function]}
+                  onCompositionEnd={[Function]}
+                  onFocus={[Function]}
+                  onInput={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onPaste={[Function]}
+                  onTouchStart={[Function]}
+                  role="textbox"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "color": undefined,
+                      "direction": undefined,
+                      "fontSize": undefined,
+                      "textAlign": undefined,
+                    }
+                  }
+                  suppressContentEditableWarning={true}
+                />
+                <p
+                  className="editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "color": undefined,
+                      "direction": undefined,
+                      "fontSize": undefined,
+                      "textAlign": undefined,
+                    }
+                  }
+                >
+                  Start writing or type / to choose a block
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>,
+      ]
+       
+    </div>,
+    "",
+  ],
+]
+`;
+
+exports[`Keywords should render Keywords: render 1`] = `
+Array [
+  <div
+    className="components-form-token-field"
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyPress={[Function]}
+    tabIndex="-1"
+  >
+    <label
+      className="components-form-token-field__label"
+      htmlFor="components-form-token-input-0"
+    >
+      Set Search Keywords
+    </label>
+    <div
+      className="components-form-token-field__input-container"
+      onMouseDown={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="-1"
+    >
+      <input
+        aria-autocomplete="list"
+        aria-describedby="components-form-token-suggestions-howto-0"
+        aria-expanded={false}
+        className="components-form-token-field__input"
+        disabled={false}
+        id="components-form-token-input-0"
+        onBlur={[Function]}
+        onChange={[Function]}
+        role="combobox"
+        size={1}
+        type="text"
+        value=""
+      />
+    </div>
+    <p
+      className="components-form-token-field__help"
+      id="components-form-token-suggestions-howto-0"
+    >
+      Separate with commas or the Enter key.
+    </p>
+  </div>,
+  Array [
+    <div>
+       
+      Array [
+        "",
+        "",
+        <div
+          className="editor-rich-text block-editor-rich-text"
+        >
+          <div
+            onFocus={[Function]}
+          >
+            <div
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+            >
+              <div
+                className="components-autocomplete"
+                onClick={[Function]}
+              >
+                <p
+                  aria-activedescendant={null}
+                  aria-autocomplete="list"
+                  aria-label="Paragraph block"
+                  aria-multiline={true}
+                  aria-owns={null}
+                  className="block-editor-rich-text__editable editor-rich-text__editable wp-block-paragraph test-block-edit"
+                  contentEditable={true}
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<br data-rich-text-padding=\\"true\\">",
+                    }
+                  }
+                  data-is-placeholder-visible={true}
+                  onBlur={[Function]}
+                  onCompositionEnd={[Function]}
+                  onFocus={[Function]}
+                  onInput={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onPaste={[Function]}
+                  onTouchStart={[Function]}
+                  role="textbox"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "color": undefined,
+                      "direction": undefined,
+                      "fontSize": undefined,
+                      "textAlign": undefined,
+                    }
+                  }
+                  suppressContentEditableWarning={true}
+                />
+                <p
+                  className="editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "color": undefined,
+                      "direction": undefined,
+                      "fontSize": undefined,
+                      "textAlign": undefined,
+                    }
+                  }
+                >
+                  Start writing or type / to choose a block
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>,
+      ]
+       
+    </div>,
+    "",
+  ],
+]
+`;

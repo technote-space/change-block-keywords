@@ -1,8 +1,6 @@
 <?php
 /**
- * @version 1.0.1
  * @author Technote
- * @since 0.0.1
  * @copyright Technote All Rights Reserved
  * @license http://www.opensource.org/licenses/gpl-2.0.php GNU General Public License, version 2
  * @link https://technote.space/
@@ -29,19 +27,33 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 
 	/**
 	 * enqueue css for gutenberg
+	 *
+	 * @noinspection PhpUnusedPrivateMethodInspection
+	 * @SuppressWarnings(PHPMD.UnusedPrivateMethod)
 	 */
-	/** @noinspection PhpUnusedPrivateMethodInspection */
 	private function enqueue_block_editor_assets() {
-		$this->enqueue_script( 'change-block-keywords', 'index.min.js', [
-			'wp-hooks',
-			'wp-compose',
-			'wp-editor',
-			'wp-data',
-			'wp-element',
-			'wp-components',
-			'wp-plugins',
+		$depends = [
+			'wp-block-editor',
 			'wp-blocks',
-		], $this->app->get_plugin_version(), false );
+			'wp-components',
+			'wp-compose',
+			'wp-core-data',
+			'wp-data',
+			'wp-editor',
+			'wp-element',
+			'wp-hooks',
+			'wp-i18n',
+			'wp-rich-text',
+			'wp-server-side-render',
+			'wp-url',
+		];
+		foreach ( $depends as $key => $depend ) {
+			if ( ! $this->app->editor->is_support_editor_package( $depend ) ) {
+				unset( $depends[ $key ] );
+			}
+		}
+		$depends[] = 'lodash';
+		$this->enqueue_script( 'change-block-keywords', 'index.min.js', $depends, $this->app->get_plugin_version(), false );
 		$this->localize_script( 'change-block-keywords', 'cbkParams', [
 			'translate' => $this->get_translate_data( [
 				'Set Search Keywords',
