@@ -49,7 +49,7 @@ This plugin needs PHP5.6 or higher.
 
 == Changelog ==
 
-= 1.0.4 (2019/6/25) =
+= 1.0.4 (2019/6/26) =
 * Added: [CI Tool](https://github.com/technote-space/change-block-keywords/issues/24)
 * Improved: [Consider Compatibility of Gutenberg](https://github.com/technote-space/change-block-keywords/issues/30)
 

@@ -23,9 +23,9 @@ This plugin make it easy to change block's search keywords.
 
 ## Installation
 1. Login to you WP admin page and go to **Plugins** > **Add New**.  
-![手順1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/add.png)  
+![step1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/add.png)  
 2. Search by **Change Block Keywords** and press **Install Now** button.  
-![手順2](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/search.png)
+![step2](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/search.png)
 3. **Activate**  
 
 ## Usage
