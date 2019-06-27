@@ -11,7 +11,7 @@
     "cover:update": "jest --coverage --updateSnapshot",
     "develop": "webpack --mode development --config webpack.config.js",
     "build": "webpack --mode production --config webpack.config.js",
-    "coveralls": "cat ./coverage/lcov.info | $(npm bin)/coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "author": "Technote <technote.space@gmail.com> (https://technote.space)",
   "license": "GPL-3.0",

@@ -4,7 +4,7 @@ Tags: gutenberg, search, keyword
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.2.2
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 Donate link: https://paypal.me/technote0space
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -33,6 +33,9 @@ This plugin needs PHP5.6 or higher.
 
 == Upgrade Notice ==
 
+= 1.0.5 =
+* [すべての差分](https://github.com/technote-space/change-block-keywords/pull/43)
+
 = 1.0.4 =
 * リファクタリング及びテスト自動化などを行いました。 [詳細](https://github.com/technote-space/change-block-keywords/issues/24)
 * [すべての差分](https://github.com/technote-space/change-block-keywords/pull/36)
@@ -48,6 +51,9 @@ This plugin needs PHP5.6 or higher.
 * [すべての差分](https://github.com/technote-space/change-block-keywords/pull/8)
 
 == Changelog ==
+
+= 1.0.5 (2019/6/27) =
+* Improved: [Refactor CI scripts](https://github.com/technote-space/change-block-keywords/issues/41)
 
 = 1.0.4 (2019/6/26) =
 * Added: [CI Tool](https://github.com/technote-space/change-block-keywords/issues/24)
