@@ -17,6 +17,7 @@ This plugin make it easy to change block's search keywords.
 [日本語の説明](https://technote.space/change-block-keywords "Documentation in Japanese")
 [GitHub (More details)](https://github.com/technote-space/change-block-keywords)
 [Issues (Reporting a new bug or feature request)](https://github.com/technote-space/change-block-keywords/issues)
+[Demonstration](https://technote-space.github.io/change-block-keywords)
 
 This plugin needs PHP5.6 or higher.
 
