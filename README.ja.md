@@ -12,38 +12,38 @@
 
 *Read this in other languages: [English](README.md), [日本語](README.ja.md).*
 
-This plugin make it easy to change block's search keywords.
+ブロック検索のキーワードを自由に設定できるようにします。  
 
-[WordPress Plugin Page](https://wordpress.org/plugins/change-block-keywords/)
+[WordPress公式ディレクトリ](https://ja.wordpress.org/plugins/change-block-keywords/)
 
-[Demonstration](https://technote-space.github.io/change-block-keywords)
+[デモ](https://technote-space.github.io/change-block-keywords)
 
-## Screenshots
-### Behavior
-![Behavior](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/.github/images/screenshot-1.gif)
+## スクリーンショット
+### 動作
+![動作](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/.github/images/screenshot-1.gif)
 
-## Requirements
-- \>= PHP 5.6
-- \>= WordPress 5.0
+## 要件
+- PHP 5.6 以上
+- WordPress v5.0 以上
 
-## Installation
-1. Login to you WP admin page and go to **Plugins** > **Add New**.  
+## 導入手順
+1. 管理画面のプラグインから「新規追加」  
 ![step1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/add.png)  
-2. Search by **Change Block Keywords** and press **Install Now** button.  
+2. 「Change Block Keywords」で検索し「今すぐインストール」を押下  
 ![step2](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/search.png)
-3. **Activate**  
+3. 「有効化」  
 
-## Usage
-1. Select block which you want to set keywords.  
+## 使用方法
+1. キーワードを変更したいブロックを選択  
 ![Select block](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/select.png)  
-2. Edit keywords.  
+2. キーワードを編集  
 ![Edit keywords](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/set.png)
-3. Use keyword.  
+3. キーワードを使用  
 ![Use keyword](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/use.png)
 
 ## Author
 [GitHub (Technote)](https://github.com/technote-space)  
 [Blog](https://technote.space)
 
-## Plugin framework
+## プラグイン作成用フレームワーク
 [WP Content Framework](https://github.com/wp-content-framework/core)

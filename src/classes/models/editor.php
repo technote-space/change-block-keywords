@@ -32,7 +32,7 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	 * @SuppressWarnings(PHPMD.UnusedPrivateMethod)
 	 */
 	private function enqueue_block_editor_assets() {
-		$depends = [
+		$this->enqueue_script( 'change-block-keywords', 'index.min.js', $this->app->editor->filter_packages( [
 			'wp-block-editor',
 			'wp-blocks',
 			'wp-components',
@@ -46,14 +46,7 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 			'wp-rich-text',
 			'wp-server-side-render',
 			'wp-url',
-		];
-		foreach ( $depends as $key => $depend ) {
-			if ( ! $this->app->editor->is_support_editor_package( $depend ) ) {
-				unset( $depends[ $key ] );
-			}
-		}
-		$depends[] = 'lodash';
-		$this->enqueue_script( 'change-block-keywords', 'index.min.js', $depends, $this->app->get_plugin_version(), false );
+		], [ 'lodash' ] ), $this->app->get_plugin_version(), false );
 		$this->localize_script( 'change-block-keywords', 'cbkParams', [
 			'translate' => $this->get_translate_data( [
 				'Set Search Keywords',
