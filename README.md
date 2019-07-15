@@ -36,9 +36,9 @@ This plugin make it easy to change block's search keywords.
 ## Usage
 1. Select block which you want to set keywords.  
 ![Select block](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/select.png)  
-2. Edit keywords.
+2. Edit keywords.  
 ![Edit keywords](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/set.png)
-3. Use keyword.
+3. Use keyword.  
 ![Use keyword](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/use.png)
 
 ## Author

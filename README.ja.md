@@ -36,9 +36,9 @@
 ## 使用方法
 1. キーワードを変更したいブロックを選択  
 ![Select block](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/select.png)  
-2. キーワードを編集
+2. キーワードを編集  
 ![Edit keywords](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/set.png)
-3. キーワードを使用
+3. キーワードを使用  
 ![Use keyword](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/use.png)
 
 ## Author
