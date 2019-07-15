@@ -56,7 +56,7 @@ This plugin needs PHP5.6 or higher.
 
 == Changelog ==
 
-= 1.0.6 (2019/7/14) =
+= 1.0.6 (2019/7/15) =
 * Added: [Demo](https://github.com/technote-space/change-block-keywords/issues/67)
 * Added: [English readme](https://github.com/technote-space/change-block-keywords/issues/65)
 * Added: [Test pattern](https://github.com/technote-space/change-block-keywords/issues/66)
