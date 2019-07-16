@@ -5,16 +5,13 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/technote-space/change-block-keywords/badge)](https://www.codefactor.io/repository/github/technote-space/change-block-keywords)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 [![PHP: >=5.6](https://img.shields.io/badge/PHP-%3E%3D5.6-orange.svg)](http://php.net/)
-![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/change-block-keywords.svg)
-![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/change-block-keywords.svg)
+[![WordPress: >=5.0](https://img.shields.io/badge/WordPress-%3E%3D5.0-brightgreen.svg)](https://wordpress.org/)
 
 ![banner](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/banner-772x250.png)
 
 *Read this in other languages: [English](README.md), [日本語](README.ja.md).*
 
 ブロック検索のキーワードを自由に設定できるようにします。  
-
-[WordPress公式ディレクトリ](https://ja.wordpress.org/plugins/change-block-keywords/)
 
 [デモ](https://technote-space.github.io/change-block-keywords)
 
@@ -27,11 +24,11 @@
 - WordPress v5.0 以上
 
 ## 導入手順
-1. 管理画面のプラグインから「新規追加」  
-![step1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/add.png)  
-2. 「Change Block Keywords」で検索し「今すぐインストール」を押下  
-![step2](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/search.png)
-3. 「有効化」  
+1. 最新版をGitHubからダウンロード  
+[change-block-keywords.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+2. 「プラグインのアップロード」からインストール
+![install](https://raw.githubusercontent.com/technote-space/screenshots/master/misc/install-wp-plugin.png)
+3. プラグインを有効化
 
 ## 使用方法
 1. キーワードを変更したいブロックを選択  

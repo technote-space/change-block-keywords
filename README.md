@@ -5,16 +5,13 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/technote-space/change-block-keywords/badge)](https://www.codefactor.io/repository/github/technote-space/change-block-keywords)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 [![PHP: >=5.6](https://img.shields.io/badge/PHP-%3E%3D5.6-orange.svg)](http://php.net/)
-![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/change-block-keywords.svg)
-![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/change-block-keywords.svg)
+[![WordPress: >=5.0](https://img.shields.io/badge/WordPress-%3E%3D5.0-brightgreen.svg)](https://wordpress.org/)
 
 ![banner](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/banner-772x250.png)
 
 *Read this in other languages: [English](README.md), [日本語](README.ja.md).*
 
 This plugin make it easy to change block's search keywords.
-
-[WordPress Plugin Page](https://wordpress.org/plugins/change-block-keywords/)
 
 [Demonstration](https://technote-space.github.io/change-block-keywords)
 
@@ -27,11 +24,11 @@ This plugin make it easy to change block's search keywords.
 - \>= WordPress 5.0
 
 ## Installation
-1. Login to you WP admin page and go to **Plugins** > **Add New**.  
-![step1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/add.png)  
-2. Search by **Change Block Keywords** and press **Install Now** button.  
-![step2](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/search.png)
-3. **Activate**  
+1. Download latest version  
+[change-block-keywords.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+2. Install plugin
+![install](https://raw.githubusercontent.com/technote-space/screenshots/master/misc/install-wp-plugin.png)
+3. Activate plugin
 
 ## Usage
 1. Select block which you want to set keywords.  
