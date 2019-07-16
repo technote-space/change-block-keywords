@@ -24,11 +24,11 @@
 - WordPress v5.0 以上
 
 ## 導入手順
-1. 管理画面のプラグインから「新規追加」  
-![step1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/add.png)  
-2. 「Change Block Keywords」で検索し「今すぐインストール」を押下  
-![step2](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/search.png)
-3. 「有効化」  
+1. 最新版をGitHubからダウンロード  
+[change-block-keywords.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+2. 「プラグインのアップロード」からインストール
+![install](https://raw.githubusercontent.com/technote-space/screenshots/master/misc/install-wp-plugin.png)
+3. プラグインを有効化
 
 ## 使用方法
 1. キーワードを変更したいブロックを選択  

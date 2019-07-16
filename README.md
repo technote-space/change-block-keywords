@@ -24,11 +24,11 @@ This plugin make it easy to change block's search keywords.
 - \>= WordPress 5.0
 
 ## Installation
-1. Login to you WP admin page and go to **Plugins** > **Add New**.  
-![step1](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/add.png)  
-2. Search by **Change Block Keywords** and press **Install Now** button.  
-![step2](https://raw.githubusercontent.com/technote-space/change-block-keywords/images/assets/search.png)
-3. **Activate**  
+1. Download latest version  
+[change-block-keywords.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+2. Install plugin
+![install](https://raw.githubusercontent.com/technote-space/screenshots/master/misc/install-wp-plugin.png)
+3. Activate plugin
 
 ## Usage
 1. Select block which you want to set keywords.  
