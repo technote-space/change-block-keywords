@@ -38,7 +38,7 @@
     "@wordpress/keycodes": "^2.4.0",
     "@wordpress/rich-text": "^3.4.0",
     "@wordpress/server-side-render": "^1.0.0",
-    "@wordpress/url": "^2.6.0",
+    "@wordpress/url": "^2.7.0",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "coveralls": "^3.0.5",
