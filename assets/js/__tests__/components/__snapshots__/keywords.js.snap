@@ -133,18 +133,16 @@ Array [
               >
                 <p
                   aria-activedescendant={null}
-                  aria-autocomplete="list"
                   aria-label="Paragraph block"
                   aria-multiline={true}
                   aria-owns={null}
-                  className="block-editor-rich-text__editable editor-rich-text__editable wp-block-paragraph test-block-edit"
+                  className="rich-text editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
                   contentEditable={true}
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": "<br data-rich-text-padding=\\"true\\">",
+                      "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\"></span>",
                     }
                   }
-                  data-is-placeholder-visible={true}
                   onBlur={[Function]}
                   onCompositionEnd={[Function]}
                   onFocus={[Function]}
@@ -161,24 +159,11 @@ Array [
                       "direction": undefined,
                       "fontSize": undefined,
                       "textAlign": undefined,
+                      "whiteSpace": "pre-wrap",
                     }
                   }
                   suppressContentEditableWarning={true}
                 />
-                <p
-                  className="editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
-                  style={
-                    Object {
-                      "backgroundColor": undefined,
-                      "color": undefined,
-                      "direction": undefined,
-                      "fontSize": undefined,
-                      "textAlign": undefined,
-                    }
-                  }
-                >
-                  Start writing or type / to choose a block
-                </p>
               </div>
             </div>
           </div>
@@ -260,18 +245,16 @@ Array [
               >
                 <p
                   aria-activedescendant={null}
-                  aria-autocomplete="list"
                   aria-label="Paragraph block"
                   aria-multiline={true}
                   aria-owns={null}
-                  className="block-editor-rich-text__editable editor-rich-text__editable wp-block-paragraph test-block-edit"
+                  className="rich-text editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
                   contentEditable={true}
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": "<br data-rich-text-padding=\\"true\\">",
+                      "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\"></span>",
                     }
                   }
-                  data-is-placeholder-visible={true}
                   onBlur={[Function]}
                   onCompositionEnd={[Function]}
                   onFocus={[Function]}
@@ -288,24 +271,11 @@ Array [
                       "direction": undefined,
                       "fontSize": undefined,
                       "textAlign": undefined,
+                      "whiteSpace": "pre-wrap",
                     }
                   }
                   suppressContentEditableWarning={true}
                 />
-                <p
-                  className="editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
-                  style={
-                    Object {
-                      "backgroundColor": undefined,
-                      "color": undefined,
-                      "direction": undefined,
-                      "fontSize": undefined,
-                      "textAlign": undefined,
-                    }
-                  }
-                >
-                  Start writing or type / to choose a block
-                </p>
               </div>
             </div>
           </div>

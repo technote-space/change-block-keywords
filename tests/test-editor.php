@@ -2,11 +2,15 @@
 /**
  * Class EditorTest
  *
- * @package Test_Travis
+ * @package Tests
  */
+
+namespace Tests;
 
 use Change_Block_Keywords\Classes\Models\Editor;
 use PHPUnit\Framework\TestCase;
+use WP_Framework;
+use WP_UnitTestCase;
 
 /**
  * @noinspection PhpUndefinedClassInspection
