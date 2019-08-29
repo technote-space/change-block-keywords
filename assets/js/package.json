@@ -35,7 +35,7 @@
     "@wordpress/element": "^2.6.0",
     "@wordpress/hooks": "^2.5.0",
     "@wordpress/i18n": "^3.6.0",
-    "@wordpress/keycodes": "^2.5.0",
+    "@wordpress/keycodes": "^2.6.0",
     "@wordpress/rich-text": "^3.5.0",
     "@wordpress/server-side-render": "^1.1.0",
     "@wordpress/url": "^2.7.0",

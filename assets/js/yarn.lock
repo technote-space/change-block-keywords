@@ -1554,10 +1554,10 @@
   dependencies:
     "@babel/runtime" "^7.4.4"
 
-"@wordpress/keycodes@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/keycodes/-/keycodes-2.5.0.tgz#8eaec19d35d4196851fdf2bde4b5c8585422d941"
-  integrity sha512-4SMN3pmJnNBexpd3/6JB6gJw+wcahBaVZaeMcHyF+Uw7bKcG6hDkzEAN6dWFJuifpdxmvilDE4H5JS/Ex9C6sA==
+"@wordpress/keycodes@^2.5.0", "@wordpress/keycodes@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/keycodes/-/keycodes-2.6.0.tgz#80067c1b6c69b5eb9990f17f43636b77f5527549"
+  integrity sha512-wWCyom/dHMBb2hmNbuZym30/6QrvW2RvIbQNu1LHNZvVqehMOQLdVMUf525aLVJVQfp9wfer/fz5TjphW43txA==
   dependencies:
     "@babel/runtime" "^7.4.4"
     "@wordpress/i18n" "^3.6.0"
