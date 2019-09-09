@@ -34,7 +34,7 @@ This plugin needs PHP5.6 or higher.
 
 = 1.2.0 =
 * GitHub Actions の導入 [詳細](https://github.com/technote-space/change-block-keywords/issues/121)
-* [すべての差分](https://github.com/technote-space/change-block-keywords/pull/74)
+* [すべての差分](https://github.com/technote-space/change-block-keywords/pull/123)
 
 = 1.0.9 =
 * [すべての差分](https://github.com/technote-space/change-block-keywords/pull/72)
