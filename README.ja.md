@@ -1,5 +1,6 @@
 # Change Block Keywords
 
+[![Build Status](https://github.com/technote-space/change-block-keywords/workflows/Build/badge.svg)](https://github.com/technote-space/change-block-keywords/actions)
 [![Build Status](https://travis-ci.com/technote-space/change-block-keywords.svg?branch=master)](https://travis-ci.com/technote-space/change-block-keywords)
 [![Coverage Status](https://coveralls.io/repos/github/technote-space/change-block-keywords/badge.svg?branch=master)](https://coveralls.io/github/technote-space/change-block-keywords?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/technote-space/change-block-keywords/badge)](https://www.codefactor.io/repository/github/technote-space/change-block-keywords)
@@ -15,7 +16,10 @@
 
 [デモ](https://technote-space.github.io/change-block-keywords)
 
-[最新バージョン](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+[最新バージョン](https://github.com/technote-space/change-block-keywords/releases/latest/download/release.zip)
+
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 ## スクリーンショット
 ### 動作
@@ -27,7 +31,7 @@
 
 ## 導入手順
 1. 最新版をGitHubからダウンロード  
-[change-block-keywords.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+[release.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/release.zip)
 2. 「プラグインのアップロード」からインストール
 ![install](https://raw.githubusercontent.com/technote-space/screenshots/master/misc/install-wp-plugin.png)
 3. プラグインを有効化
