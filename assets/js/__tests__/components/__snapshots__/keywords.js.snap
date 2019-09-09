@@ -53,6 +53,7 @@ Array [
             onBlur={[Function]}
             onClick={[Function]}
             onFocus={[Function]}
+            onMouseDown={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
           >
@@ -63,6 +64,7 @@ Array [
               onBlur={[Function]}
               onClick={[Function]}
               onFocus={[Function]}
+              onMouseDown={[Function]}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               type="button"
@@ -140,7 +142,7 @@ Array [
                   contentEditable={true}
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\"></span>",
+                      "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\" contenteditable=\\"false\\"></span>",
                     }
                   }
                   onBlur={[Function]}
@@ -148,8 +150,11 @@ Array [
                   onFocus={[Function]}
                   onInput={[Function]}
                   onKeyDown={[Function]}
+                  onKeyUp={[Function]}
                   onMouseDown={[Function]}
+                  onMouseUp={[Function]}
                   onPaste={[Function]}
+                  onTouchEnd={[Function]}
                   onTouchStart={[Function]}
                   role="textbox"
                   style={
@@ -158,7 +163,6 @@ Array [
                       "color": undefined,
                       "direction": undefined,
                       "fontSize": undefined,
-                      "textAlign": undefined,
                       "whiteSpace": "pre-wrap",
                     }
                   }
@@ -252,7 +256,7 @@ Array [
                   contentEditable={true}
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\"></span>",
+                      "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\" contenteditable=\\"false\\"></span>",
                     }
                   }
                   onBlur={[Function]}
@@ -260,8 +264,11 @@ Array [
                   onFocus={[Function]}
                   onInput={[Function]}
                   onKeyDown={[Function]}
+                  onKeyUp={[Function]}
                   onMouseDown={[Function]}
+                  onMouseUp={[Function]}
                   onPaste={[Function]}
+                  onTouchEnd={[Function]}
                   onTouchStart={[Function]}
                   role="textbox"
                   style={
@@ -270,7 +277,6 @@ Array [
                       "color": undefined,
                       "direction": undefined,
                       "fontSize": undefined,
-                      "textAlign": undefined,
                       "whiteSpace": "pre-wrap",
                     }
                   }
