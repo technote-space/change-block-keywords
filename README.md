@@ -1,5 +1,6 @@
 # Change Block Keywords
 
+[![Build Status](https://github.com/technote-space/change-block-keywords/workflows/Build/badge.svg)](https://github.com/technote-space/change-block-keywords/actions)
 [![Build Status](https://travis-ci.com/technote-space/change-block-keywords.svg?branch=master)](https://travis-ci.com/technote-space/change-block-keywords)
 [![Coverage Status](https://coveralls.io/repos/github/technote-space/change-block-keywords/badge.svg?branch=master)](https://coveralls.io/github/technote-space/change-block-keywords?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/technote-space/change-block-keywords/badge)](https://www.codefactor.io/repository/github/technote-space/change-block-keywords)
@@ -15,7 +16,21 @@ This plugin make it easy to change block's search keywords.
 
 [Demonstration](https://technote-space.github.io/change-block-keywords)
 
-[Latest version](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+[Latest version](https://github.com/technote-space/change-block-keywords/releases/latest/download/release.zip)
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Screenshots](#screenshots)
+  - [Behavior](#behavior)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Author](#author)
+- [Plugin framework](#plugin-framework)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Screenshots
 ### Behavior
@@ -27,7 +42,7 @@ This plugin make it easy to change block's search keywords.
 
 ## Installation
 1. Download latest version  
-[change-block-keywords.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/change-block-keywords.zip)
+[release.zip](https://github.com/technote-space/change-block-keywords/releases/latest/download/release.zip)
 2. Install plugin
 ![install](https://raw.githubusercontent.com/technote-space/screenshots/master/misc/install-wp-plugin.png)
 3. Activate plugin
