@@ -1421,16 +1421,16 @@
     refx "^3.0.0"
     rememo "^3.0.0"
 
-"@wordpress/element@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/element/-/element-2.7.0.tgz#e4388dc770620779a10f940218191a17ea977313"
-  integrity sha512-wyGOSFucslwndsSU4VlO7Z67C4NszsESM21fDwLF3z/JUcZDbcTZLmEId2QysgYUYtX5sBk6OvoTe8f4FY+SKQ==
+"@wordpress/element@^2.7.0", "@wordpress/element@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@wordpress/element/-/element-2.8.1.tgz#da964c6557cca523660d683e79cbd4903b428e21"
+  integrity sha512-iKdeuf0aSKVO1PxjCCmCUBYk531Iesh6E2ayWsWjj/JNRAcVuAOGiAIxCxU7pE127upjSLmkRh+dXNZ244IWQw==
   dependencies:
     "@babel/runtime" "^7.4.4"
     "@wordpress/escape-html" "^1.5.0"
-    lodash "^4.17.14"
-    react "^16.8.4"
-    react-dom "^16.8.4"
+    lodash "^4.17.15"
+    react "^16.9.0"
+    react-dom "^16.9.0"
 
 "@wordpress/escape-html@^1.5.0":
   version "1.5.0"
@@ -6471,7 +6471,7 @@ react-dates@^17.1.1:
     react-with-styles "^3.2.0"
     react-with-styles-interface-css "^4.0.2"
 
-react-dom@^16.8.4, react-dom@^16.9.0:
+react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   integrity sha512-YFT2rxO9hM70ewk9jq0y6sQk8cL02xm4+IzYBz75CQGlClQQ1Bxq0nhHF6OtSbit+AIahujJgb/CPRibFkMNJQ==
@@ -6561,10 +6561,10 @@ react-with-styles@^3.2.0:
     prop-types "^15.6.2"
     react-with-direction "^1.3.0"
 
-react@^16.8.4:
-  version "16.9.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
-  integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
+react@^16.9.0:
+  version "16.10.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.10.1.tgz#967c1e71a2767dfa699e6ba702a00483e3b0573f"
+  integrity sha512-2bisHwMhxQ3XQz4LiJJwG3360pY965pTl/MRrZYxIBKVj4fOHoDs5aZAkYXGxDRO1Li+SyjTAilQEbOmtQJHzA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
