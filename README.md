@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/technote-space/change-block-keywords/workflows/Build/badge.svg)](https://github.com/technote-space/change-block-keywords/actions)
 [![Build Status](https://travis-ci.com/technote-space/change-block-keywords.svg?branch=master)](https://travis-ci.com/technote-space/change-block-keywords)
-[![Coverage Status](https://coveralls.io/repos/github/technote-space/change-block-keywords/badge.svg?branch=master)](https://coveralls.io/github/technote-space/change-block-keywords?branch=master)
+[![codecov](https://codecov.io/gh/technote-space/change-block-keywords/branch/master/graph/badge.svg)](https://codecov.io/gh/technote-space/change-block-keywords)
 [![CodeFactor](https://www.codefactor.io/repository/github/technote-space/change-block-keywords/badge)](https://www.codefactor.io/repository/github/technote-space/change-block-keywords)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 [![PHP: >=5.6](https://img.shields.io/badge/PHP-%3E%3D5.6-orange.svg)](http://php.net/)
