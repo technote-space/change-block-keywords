@@ -1,6 +1,6 @@
 {
   "name": "change-block-keywords",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "change block keywords",
   "scripts": {
     "start": "yarn build",
