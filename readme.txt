@@ -32,6 +32,10 @@ This plugin needs PHP5.6 or higher.
 
 == Upgrade Notice ==
 
+= 1.2.2 =
+* パッケージの更新
+* [すべての差分](https://github.com/technote-space/change-block-keywords/pull/166)
+
 = 1.2.0 =
 * GitHub Actions の導入 [詳細](https://github.com/technote-space/change-block-keywords/issues/121)
 * [すべての差分](https://github.com/technote-space/change-block-keywords/pull/123)
