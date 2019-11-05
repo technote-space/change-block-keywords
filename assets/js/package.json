@@ -41,7 +41,7 @@
     "@wordpress/dom": "^2.5.2",
     "@wordpress/editor": "^9.7.2",
     "@wordpress/element": "^2.8.2",
-    "@wordpress/format-library": "^1.9.2",
+    "@wordpress/format-library": "^1.9.4",
     "@wordpress/hooks": "^2.6.0",
     "@wordpress/i18n": "^3.6.1",
     "@wordpress/is-shallow-equal": "^1.6.1",
