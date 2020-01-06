@@ -34,7 +34,7 @@ describe( 'Keywords', () => {
 				<InspectorAdvancedControls.Slot/>
 
 				<BlockEdit
-					name="core/paragraph"
+					name="core/quote"
 					isSelected={ true }
 					attributes={ ( {
 						className: 'test-block-edit',
@@ -51,7 +51,7 @@ describe( 'Keywords', () => {
 
 		expect( toJson( wrapper, { mode: 'deep' } ) ).toMatchSnapshot( 'render' );
 
-		expect( select( STORE_NAME ).getKeywords( 'core/paragraph' ) ).toHaveLength( 0 );
+		expect( select( STORE_NAME ).getKeywords( 'core/quote' ) ).toHaveLength( 0 );
 		expect( wrapper.find( '.components-form-token-field__input-container' ).hostNodes() ).toHaveLength( 1 );
 		expect( wrapper.find( '.components-form-token-field__input' ).hostNodes() ).toHaveLength( 1 );
 		wrapper.find( '.components-form-token-field__input' ).hostNodes().simulate( 'change', { target: { value: 'test' } } );
@@ -59,7 +59,7 @@ describe( 'Keywords', () => {
 
 		expect( toJson( wrapper, { mode: 'deep' } ) ).toMatchSnapshot( 'input' );
 		expect( wrapper.find( '.components-form-token-field__token-text' ).hostNodes() ).toHaveLength( 1 );
-		expect( select( STORE_NAME ).getKeywords( 'core/paragraph' ) ).toHaveLength( 1 );
-		expect( select( STORE_NAME ).getKeywords( 'core/paragraph' ) ).toContain( 'test' );
+		expect( select( STORE_NAME ).getKeywords( 'core/quote' ) ).toHaveLength( 1 );
+		expect( select( STORE_NAME ).getKeywords( 'core/quote' ) ).toContain( 'test' );
 	} );
 } );
