@@ -1,6 +1,6 @@
 # Change Block Keywords
 
-[![Build Status](https://github.com/technote-space/change-block-keywords/workflows/Build/badge.svg)](https://github.com/technote-space/change-block-keywords/actions)
+[![CI Status](https://github.com/technote-space/change-block-keywords/workflows/CI/badge.svg)](https://github.com/technote-space/change-block-keywords/actions)
 [![Build Status](https://travis-ci.com/technote-space/change-block-keywords.svg?branch=master)](https://travis-ci.com/technote-space/change-block-keywords)
 [![codecov](https://codecov.io/gh/technote-space/change-block-keywords/branch/master/graph/badge.svg)](https://codecov.io/gh/technote-space/change-block-keywords)
 [![CodeFactor](https://www.codefactor.io/repository/github/technote-space/change-block-keywords/badge)](https://www.codefactor.io/repository/github/technote-space/change-block-keywords)

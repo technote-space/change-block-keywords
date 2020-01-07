@@ -29,7 +29,7 @@ Array [
           id="components-form-token-field__token-text-0"
         >
           <span
-            className="screen-reader-text"
+            className="components-visually-hidden"
           >
             test (1 of 1)
           </span>
@@ -110,26 +110,39 @@ Array [
     </p>
   </div>,
   Array [
-    <div>
-       
-      Array [
-        "",
-        "",
-        <div
-          className="editor-rich-text block-editor-rich-text"
+    Array [
+      "",
+      <blockquote
+        className="wp-block-quote test-block-edit"
+      >
+        <ForwardRef
+          __unstableDidAutomaticChange={false}
+          __unstableInputRule={[Function]}
+          __unstableIsCaretWithinFormattedText={false}
+          __unstableIsSelected={false}
+          __unstableMarkAutomaticChange={[Function]}
+          __unstableMultilineTag="p"
+          __unstableOnCreateUndoLevel={[Function]}
+          __unstableOnEnterFormattedText={[Function]}
+          __unstableOnExitFormattedText={[Function]}
+          __unstableOnSplitMiddle={[Function]}
+          __unstableUndo={[Function]}
+          className="editor-rich-text__editable block-editor-rich-text__editable"
+          disabled={false}
+          onChange={[Function]}
+          onDelete={[Function]}
+          onEnter={[Function]}
+          onPaste={[Function]}
+          onSelectionChange={[Function]}
+          placeholder="Write quote…"
         >
-          <p
+          <div
             aria-activedescendant={null}
-            aria-label="Paragraph block"
+            aria-label="Write quote…"
             aria-multiline={true}
             aria-owns={null}
-            className="rich-text editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
+            className="rich-text editor-rich-text__editable block-editor-rich-text__editable"
             contentEditable={true}
-            dangerouslySetInnerHTML={
-              Object {
-                "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\" contenteditable=\\"false\\"></span>",
-              }
-            }
             onBlur={[Function]}
             onCompositionEnd={[Function]}
             onFocus={[Function]}
@@ -144,19 +157,61 @@ Array [
             role="textbox"
             style={
               Object {
-                "backgroundColor": undefined,
-                "color": undefined,
-                "direction": undefined,
-                "fontSize": undefined,
                 "whiteSpace": "pre-wrap",
               }
             }
             suppressContentEditableWarning={true}
           />
-        </div>,
-      ]
-       
-    </div>,
+        </ForwardRef>
+        <ForwardRef
+          __unstableDidAutomaticChange={false}
+          __unstableInputRule={[Function]}
+          __unstableIsCaretWithinFormattedText={false}
+          __unstableIsSelected={false}
+          __unstableMarkAutomaticChange={[Function]}
+          __unstableMobileNoFocusOnMount={true}
+          __unstableOnCreateUndoLevel={[Function]}
+          __unstableOnEnterFormattedText={[Function]}
+          __unstableOnExitFormattedText={[Function]}
+          __unstableUndo={[Function]}
+          className="editor-rich-text__editable block-editor-rich-text__editable wp-block-quote__citation"
+          disabled={false}
+          onChange={[Function]}
+          onDelete={[Function]}
+          onEnter={[Function]}
+          onPaste={[Function]}
+          onSelectionChange={[Function]}
+          placeholder="Write citation…"
+        >
+          <div
+            aria-activedescendant={null}
+            aria-label="Write citation…"
+            aria-multiline={true}
+            aria-owns={null}
+            className="rich-text editor-rich-text__editable block-editor-rich-text__editable wp-block-quote__citation"
+            contentEditable={true}
+            onBlur={[Function]}
+            onCompositionEnd={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onPaste={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            role="textbox"
+            style={
+              Object {
+                "whiteSpace": "pre-wrap",
+              }
+            }
+            suppressContentEditableWarning={true}
+          />
+        </ForwardRef>
+      </blockquote>,
+    ],
     "",
   ],
 ]
@@ -206,26 +261,39 @@ Array [
     </p>
   </div>,
   Array [
-    <div>
-       
-      Array [
-        "",
-        "",
-        <div
-          className="editor-rich-text block-editor-rich-text"
+    Array [
+      "",
+      <blockquote
+        className="wp-block-quote test-block-edit"
+      >
+        <ForwardRef
+          __unstableDidAutomaticChange={false}
+          __unstableInputRule={[Function]}
+          __unstableIsCaretWithinFormattedText={false}
+          __unstableIsSelected={false}
+          __unstableMarkAutomaticChange={[Function]}
+          __unstableMultilineTag="p"
+          __unstableOnCreateUndoLevel={[Function]}
+          __unstableOnEnterFormattedText={[Function]}
+          __unstableOnExitFormattedText={[Function]}
+          __unstableOnSplitMiddle={[Function]}
+          __unstableUndo={[Function]}
+          className="editor-rich-text__editable block-editor-rich-text__editable"
+          disabled={false}
+          onChange={[Function]}
+          onDelete={[Function]}
+          onEnter={[Function]}
+          onPaste={[Function]}
+          onSelectionChange={[Function]}
+          placeholder="Write quote…"
         >
-          <p
+          <div
             aria-activedescendant={null}
-            aria-label="Paragraph block"
+            aria-label="Write quote…"
             aria-multiline={true}
             aria-owns={null}
-            className="rich-text editor-rich-text__editable block-editor-rich-text__editable wp-block-paragraph test-block-edit"
+            className="rich-text editor-rich-text__editable block-editor-rich-text__editable"
             contentEditable={true}
-            dangerouslySetInnerHTML={
-              Object {
-                "__html": "﻿<span data-rich-text-placeholder=\\"Start writing or type / to choose a block\\" contenteditable=\\"false\\"></span>",
-              }
-            }
             onBlur={[Function]}
             onCompositionEnd={[Function]}
             onFocus={[Function]}
@@ -240,19 +308,61 @@ Array [
             role="textbox"
             style={
               Object {
-                "backgroundColor": undefined,
-                "color": undefined,
-                "direction": undefined,
-                "fontSize": undefined,
                 "whiteSpace": "pre-wrap",
               }
             }
             suppressContentEditableWarning={true}
           />
-        </div>,
-      ]
-       
-    </div>,
+        </ForwardRef>
+        <ForwardRef
+          __unstableDidAutomaticChange={false}
+          __unstableInputRule={[Function]}
+          __unstableIsCaretWithinFormattedText={false}
+          __unstableIsSelected={false}
+          __unstableMarkAutomaticChange={[Function]}
+          __unstableMobileNoFocusOnMount={true}
+          __unstableOnCreateUndoLevel={[Function]}
+          __unstableOnEnterFormattedText={[Function]}
+          __unstableOnExitFormattedText={[Function]}
+          __unstableUndo={[Function]}
+          className="editor-rich-text__editable block-editor-rich-text__editable wp-block-quote__citation"
+          disabled={false}
+          onChange={[Function]}
+          onDelete={[Function]}
+          onEnter={[Function]}
+          onPaste={[Function]}
+          onSelectionChange={[Function]}
+          placeholder="Write citation…"
+        >
+          <div
+            aria-activedescendant={null}
+            aria-label="Write citation…"
+            aria-multiline={true}
+            aria-owns={null}
+            className="rich-text editor-rich-text__editable block-editor-rich-text__editable wp-block-quote__citation"
+            contentEditable={true}
+            onBlur={[Function]}
+            onCompositionEnd={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onPaste={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            role="textbox"
+            style={
+              Object {
+                "whiteSpace": "pre-wrap",
+              }
+            }
+            suppressContentEditableWarning={true}
+          />
+        </ForwardRef>
+      </blockquote>,
+    ],
     "",
   ],
 ]
