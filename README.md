@@ -20,7 +20,8 @@ This plugin make it easy to change block's search keywords.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+<details>
+<summary>Details</summary>
 
 - [Screenshots](#screenshots)
   - [Behavior](#behavior)
@@ -30,6 +31,7 @@ This plugin make it easy to change block's search keywords.
 - [Author](#author)
 - [Plugin framework](#plugin-framework)
 
+</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Screenshots
