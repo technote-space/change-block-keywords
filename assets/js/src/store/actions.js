@@ -7,9 +7,9 @@ import {
  * @param {string} name name
  * @param {array} keywords keywords
  */
-export function* initialize( name, keywords ) {
-	if ( ! ( yield select( STORE_NAME, 'hasInitialized', name ) ) ) {
-		yield resetKeyword( name, keywords );
+export function* initialize(name, keywords) {
+	if (!(yield select(STORE_NAME, 'hasInitialized', name))) {
+		yield resetKeyword(name, keywords);
 	}
 }
 
@@ -17,7 +17,7 @@ export function* initialize( name, keywords ) {
  * @param {string} name name
  * @param {array} keywords keywords
  */
-export function* setKeywords( name, keywords ) {
+export function* setKeywords(name, keywords) {
 	yield {
 		type: SET_KEYWORDS,
 		name,
@@ -29,8 +29,8 @@ export function* setKeywords( name, keywords ) {
  * @param {string} name name
  * @param {array} keywords keywords
  */
-export function* resetKeyword( name, keywords ) {
-	if ( keywords ) {
+export function* resetKeyword(name, keywords) {
+	if (keywords) {
 		yield {
 			type: RESET_KEYWORD,
 			name,

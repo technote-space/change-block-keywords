@@ -42,7 +42,16 @@ Array [
         <ForwardRef(Button)
           aria-describedby="components-form-token-field__token-text-0"
           className="components-form-token-field__remove-token"
-          icon="dismiss"
+          icon={
+            <SVG
+              viewBox="-2 -2 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <Path
+                d="M10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8zm5 11l-3-3 3-3-2-2-3 3-3-3-2 2 3 3-3 3 2 2 3-3 3 3z"
+              />
+            </SVG>
+          }
           label="Remove item"
           onClick={[Function]}
         >
@@ -60,12 +69,11 @@ Array [
           >
             <svg
               aria-hidden="true"
-              className="dashicon dashicons-dismiss"
               focusable="false"
-              height={20}
+              height={24}
               role="img"
-              viewBox="0 0 20 20"
-              width={20}
+              viewBox="-2 -2 24 24"
+              width={24}
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -99,7 +107,10 @@ Array [
   </div>,
   Array [
     Array [
-      "",
+      Array [
+        "",
+        "",
+      ],
       <blockquote
         className="wp-block-quote test-block-edit"
       >
@@ -229,7 +240,10 @@ Array [
         </ForwardRef(RichTextWrapper)>
       </blockquote>,
     ],
-    "",
+    Array [
+      "",
+      "",
+    ],
   ],
 ]
 `;
@@ -279,7 +293,10 @@ Array [
   </div>,
   Array [
     Array [
-      "",
+      Array [
+        "",
+        "",
+      ],
       <blockquote
         className="wp-block-quote test-block-edit"
       >
@@ -409,7 +426,10 @@ Array [
         </ForwardRef(RichTextWrapper)>
       </blockquote>,
     ],
-    "",
+    Array [
+      "",
+      "",
+    ],
   ],
 ]
 `;

@@ -3,7 +3,7 @@
  * @param {string} name name
  * @returns {*|Array} keywords
  */
-export function getKeywords( state, name ) {
+export function getKeywords(state, name) {
 	return state.keywords[ name ] || [];
 }
 
@@ -12,6 +12,6 @@ export function getKeywords( state, name ) {
  * @param {string} name name
  * @returns {*|boolean} initialized?
  */
-export function hasInitialized( state, name ) {
+export function hasInitialized(state, name) {
 	return state.hasInitialized[ name ] || false;
 }

@@ -1,6 +1,6 @@
 import { setupGlobal } from '@technote-space/gutenberg-test-helper';
 
-setupGlobal( {
+setupGlobal({
 	setUseRefMock: false,
 	mockLodashDebounce: false,
 	globalParams: {
@@ -8,4 +8,4 @@ setupGlobal( {
 			translate: {},
 		},
 	},
-} );
+});
