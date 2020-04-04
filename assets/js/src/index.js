@@ -1,16 +1,15 @@
+import { addFilter } from '@wordpress/hooks';
 import './store';
 import { getNamespace, getKeywordsFormComponent, getSetupKeywordsFunc } from './utils';
 
-const { addFilter } = wp.hooks;
-
 addFilter(
 	'editor.BlockEdit',
-	getNamespace( 'add-keywords-form' ),
+	getNamespace('add-keywords-form'),
 	getKeywordsFormComponent(),
 );
 
 addFilter(
 	'blocks.registerBlockType',
-	getNamespace( 'setup-keywords' ),
+	getNamespace('setup-keywords'),
 	getSetupKeywordsFunc(),
 );

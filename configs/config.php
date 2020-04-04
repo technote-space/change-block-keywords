@@ -13,7 +13,7 @@ if ( ! defined( 'CHANGE_BLOCK_KEYWORDS' ) ) {
 return [
 
 	// required wordpress version
-	'required_wordpress_version' => '5.0',
+	'required_wordpress_version' => '5.4',
 
 	// update
 	'update_info_file_url'       => 'https://raw.githubusercontent.com/technote-space/change-block-keywords/master/update.json',
