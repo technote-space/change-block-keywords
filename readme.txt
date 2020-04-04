@@ -34,6 +34,6 @@ This plugin needs PHP5.6 or higher.
 
 = 2.0.0 =
 * [[最新のバージョン(WP5.4)のみサポート]](color:red;font-weight:bold)
-* [すべての差分](https://github.com/technote-space/change-block-keywords/pull/166)
+* [すべての差分](https://github.com/technote-space/change-block-keywords/pull/232)
 
 == Changelog ==
