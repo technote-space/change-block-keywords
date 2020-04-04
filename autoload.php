@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/technote-space/change-block-keywords/
  * Description: This plugin make it easy to change block's search keywords.
  * Author: Technote
- * Version: next-v1.3.1
+ * Version: 1.3.1
  * Author URI: https://technote.space
  * Text Domain: change-block-keywords
  * Domain Path: /languages/
