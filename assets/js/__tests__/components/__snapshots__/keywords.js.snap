@@ -68,8 +68,8 @@ Array [
             type="button"
           >
             <svg
-              aria-hidden="true"
-              focusable="false"
+              aria-hidden={true}
+              focusable={false}
               height={24}
               role="img"
               viewBox="-2 -2 24 24"
