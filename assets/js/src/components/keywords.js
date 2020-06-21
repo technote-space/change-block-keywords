@@ -17,18 +17,18 @@ const translate         = getTranslator(cbkParams);
  * @constructor
  */
 const Keywords = ({ props, keywords, setKeywords }) => <InspectorAdvancedControls>
-	<FormTokenField
-		value={keywords(props)}
-		onChange={tokens => setKeywords(props, tokens)}
-		label={translate('Set Search Keywords')}
-	/>
+  <FormTokenField
+    value={keywords(props)}
+    onChange={tokens => setKeywords(props, tokens)}
+    label={translate('Set Search Keywords')}
+  />
 </InspectorAdvancedControls>;
 
 export default compose(
-	withSelect(select => ({
-		keywords: props => select(STORE_NAME).getKeywords(props.name),
-	})),
-	withDispatch(dispatch => ({
-		setKeywords: (props, keywords) => dispatch(STORE_NAME).setKeywords(props.name, keywords),
-	})),
+  withSelect(select => ({
+    keywords: props => select(STORE_NAME).getKeywords(props.name),
+  })),
+  withDispatch(dispatch => ({
+    setKeywords: (props, keywords) => dispatch(STORE_NAME).setKeywords(props.name, keywords),
+  })),
 )(Keywords);
