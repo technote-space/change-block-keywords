@@ -39,49 +39,32 @@ Array [
             test
           </span>
         </span>
-        <ForwardRef(Button)
+        <button
           aria-describedby="components-form-token-field__token-text-0"
-          className="components-form-token-field__remove-token"
-          icon={
-            <SVG
-              viewBox="-2 -2 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <Path
-                d="M10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8zm5 11l-3-3 3-3-2-2-3 3-3-3-2 2 3 3-3 3 2 2 3-3 3 3z"
-              />
-            </SVG>
-          }
-          label="Remove item"
+          aria-label="Remove item"
+          className="components-button components-form-token-field__remove-token has-icon"
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
         >
-          <button
-            aria-describedby="components-form-token-field__token-text-0"
-            aria-label="Remove item"
-            className="components-button components-form-token-field__remove-token has-icon"
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onMouseDown={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
+          <svg
+            aria-hidden={true}
+            focusable={false}
+            height={24}
+            role="img"
+            viewBox="-2 -2 24 24"
+            width={24}
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden={true}
-              focusable={false}
-              height={24}
-              role="img"
-              viewBox="-2 -2 24 24"
-              width={24}
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8zm5 11l-3-3 3-3-2-2-3 3-3-3-2 2 3 3-3 3 2 2 3-3 3 3z"
-              />
-            </svg>
-          </button>
-        </ForwardRef(Button)>
+            <path
+              d="M10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8zm5 11l-3-3 3-3-2-2-3 3-3-3-2 2 3 3-3 3 2 2 3-3 3 3z"
+            />
+          </svg>
+        </button>
       </span>
       <input
         aria-autocomplete="list"
@@ -114,130 +97,68 @@ Array [
       <blockquote
         className="wp-block-quote test-block-edit"
       >
-        <ForwardRef(RichTextWrapper)
-          __unstableOnSplitMiddle={[Function]}
-          identifier="value"
-          multiline={true}
-          onChange={[Function]}
-          onRemove={[Function]}
-          onSplit={[Function]}
-          placeholder="Write quote…"
-        >
-          <ForwardRef
-            __unstableDidAutomaticChange={false}
-            __unstableInputRule={[Function]}
-            __unstableIsCaretWithinFormattedText={false}
-            __unstableIsSelected={false}
-            __unstableMarkAutomaticChange={[Function]}
-            __unstableMultilineTag="p"
-            __unstableOnCreateUndoLevel={[Function]}
-            __unstableOnEnterFormattedText={[Function]}
-            __unstableOnExitFormattedText={[Function]}
-            blockIsSelected={true}
-            className="block-editor-rich-text__editable"
-            disabled={false}
-            identifier="value"
-            onChange={[Function]}
-            onDelete={[Function]}
-            onEnter={[Function]}
+        Array [
+          "",
+          "",
+          <div
+            aria-activedescendant={null}
+            aria-label="Write quote…"
+            aria-multiline={true}
+            aria-owns={null}
+            className="rich-text block-editor-rich-text__editable"
+            contentEditable={true}
+            onBlur={[Function]}
+            onCompositionEnd={[Function]}
+            onCompositionStart={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
             onPaste={[Function]}
-            onSelectionChange={[Function]}
-            placeholder="Write quote…"
-          >
-            Array [
-              "",
-              "",
-              <div
-                aria-activedescendant={null}
-                aria-label="Write quote…"
-                aria-multiline={true}
-                aria-owns={null}
-                className="rich-text block-editor-rich-text__editable"
-                contentEditable={true}
-                onBlur={[Function]}
-                onCompositionEnd={[Function]}
-                onCompositionStart={[Function]}
-                onFocus={[Function]}
-                onInput={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseUp={[Function]}
-                onPaste={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-                role="textbox"
-                style={
-                  Object {
-                    "whiteSpace": "pre-wrap",
-                  }
-                }
-                suppressContentEditableWarning={true}
-              />,
-            ]
-          </ForwardRef>
-        </ForwardRef(RichTextWrapper)>
-        <ForwardRef(RichTextWrapper)
-          __unstableMobileNoFocusOnMount={true}
-          className="wp-block-quote__citation"
-          identifier="citation"
-          onChange={[Function]}
-          placeholder="Write citation…"
-        >
-          <ForwardRef
-            __unstableDidAutomaticChange={false}
-            __unstableInputRule={[Function]}
-            __unstableIsCaretWithinFormattedText={false}
-            __unstableIsSelected={false}
-            __unstableMarkAutomaticChange={[Function]}
-            __unstableMobileNoFocusOnMount={true}
-            __unstableOnCreateUndoLevel={[Function]}
-            __unstableOnEnterFormattedText={[Function]}
-            __unstableOnExitFormattedText={[Function]}
-            blockIsSelected={true}
-            className="block-editor-rich-text__editable wp-block-quote__citation"
-            disabled={false}
-            identifier="citation"
-            onChange={[Function]}
-            onDelete={[Function]}
-            onEnter={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            role="textbox"
+            style={
+              Object {
+                "whiteSpace": "pre-wrap",
+              }
+            }
+            suppressContentEditableWarning={true}
+          />,
+        ]
+        Array [
+          "",
+          "",
+          <div
+            aria-activedescendant={null}
+            aria-label="Write citation…"
+            aria-multiline={true}
+            aria-owns={null}
+            className="rich-text block-editor-rich-text__editable wp-block-quote__citation"
+            contentEditable={true}
+            onBlur={[Function]}
+            onCompositionEnd={[Function]}
+            onCompositionStart={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
             onPaste={[Function]}
-            onSelectionChange={[Function]}
-            placeholder="Write citation…"
-          >
-            Array [
-              "",
-              "",
-              <div
-                aria-activedescendant={null}
-                aria-label="Write citation…"
-                aria-multiline={true}
-                aria-owns={null}
-                className="rich-text block-editor-rich-text__editable wp-block-quote__citation"
-                contentEditable={true}
-                onBlur={[Function]}
-                onCompositionEnd={[Function]}
-                onCompositionStart={[Function]}
-                onFocus={[Function]}
-                onInput={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseUp={[Function]}
-                onPaste={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-                role="textbox"
-                style={
-                  Object {
-                    "whiteSpace": "pre-wrap",
-                  }
-                }
-                suppressContentEditableWarning={true}
-              />,
-            ]
-          </ForwardRef>
-        </ForwardRef(RichTextWrapper)>
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            role="textbox"
+            style={
+              Object {
+                "whiteSpace": "pre-wrap",
+              }
+            }
+            suppressContentEditableWarning={true}
+          />,
+        ]
       </blockquote>,
     ],
     Array [
@@ -300,130 +221,68 @@ Array [
       <blockquote
         className="wp-block-quote test-block-edit"
       >
-        <ForwardRef(RichTextWrapper)
-          __unstableOnSplitMiddle={[Function]}
-          identifier="value"
-          multiline={true}
-          onChange={[Function]}
-          onRemove={[Function]}
-          onSplit={[Function]}
-          placeholder="Write quote…"
-        >
-          <ForwardRef
-            __unstableDidAutomaticChange={false}
-            __unstableInputRule={[Function]}
-            __unstableIsCaretWithinFormattedText={false}
-            __unstableIsSelected={false}
-            __unstableMarkAutomaticChange={[Function]}
-            __unstableMultilineTag="p"
-            __unstableOnCreateUndoLevel={[Function]}
-            __unstableOnEnterFormattedText={[Function]}
-            __unstableOnExitFormattedText={[Function]}
-            blockIsSelected={true}
-            className="block-editor-rich-text__editable"
-            disabled={false}
-            identifier="value"
-            onChange={[Function]}
-            onDelete={[Function]}
-            onEnter={[Function]}
+        Array [
+          "",
+          "",
+          <div
+            aria-activedescendant={null}
+            aria-label="Write quote…"
+            aria-multiline={true}
+            aria-owns={null}
+            className="rich-text block-editor-rich-text__editable"
+            contentEditable={true}
+            onBlur={[Function]}
+            onCompositionEnd={[Function]}
+            onCompositionStart={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
             onPaste={[Function]}
-            onSelectionChange={[Function]}
-            placeholder="Write quote…"
-          >
-            Array [
-              "",
-              "",
-              <div
-                aria-activedescendant={null}
-                aria-label="Write quote…"
-                aria-multiline={true}
-                aria-owns={null}
-                className="rich-text block-editor-rich-text__editable"
-                contentEditable={true}
-                onBlur={[Function]}
-                onCompositionEnd={[Function]}
-                onCompositionStart={[Function]}
-                onFocus={[Function]}
-                onInput={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseUp={[Function]}
-                onPaste={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-                role="textbox"
-                style={
-                  Object {
-                    "whiteSpace": "pre-wrap",
-                  }
-                }
-                suppressContentEditableWarning={true}
-              />,
-            ]
-          </ForwardRef>
-        </ForwardRef(RichTextWrapper)>
-        <ForwardRef(RichTextWrapper)
-          __unstableMobileNoFocusOnMount={true}
-          className="wp-block-quote__citation"
-          identifier="citation"
-          onChange={[Function]}
-          placeholder="Write citation…"
-        >
-          <ForwardRef
-            __unstableDidAutomaticChange={false}
-            __unstableInputRule={[Function]}
-            __unstableIsCaretWithinFormattedText={false}
-            __unstableIsSelected={false}
-            __unstableMarkAutomaticChange={[Function]}
-            __unstableMobileNoFocusOnMount={true}
-            __unstableOnCreateUndoLevel={[Function]}
-            __unstableOnEnterFormattedText={[Function]}
-            __unstableOnExitFormattedText={[Function]}
-            blockIsSelected={true}
-            className="block-editor-rich-text__editable wp-block-quote__citation"
-            disabled={false}
-            identifier="citation"
-            onChange={[Function]}
-            onDelete={[Function]}
-            onEnter={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            role="textbox"
+            style={
+              Object {
+                "whiteSpace": "pre-wrap",
+              }
+            }
+            suppressContentEditableWarning={true}
+          />,
+        ]
+        Array [
+          "",
+          "",
+          <div
+            aria-activedescendant={null}
+            aria-label="Write citation…"
+            aria-multiline={true}
+            aria-owns={null}
+            className="rich-text block-editor-rich-text__editable wp-block-quote__citation"
+            contentEditable={true}
+            onBlur={[Function]}
+            onCompositionEnd={[Function]}
+            onCompositionStart={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
             onPaste={[Function]}
-            onSelectionChange={[Function]}
-            placeholder="Write citation…"
-          >
-            Array [
-              "",
-              "",
-              <div
-                aria-activedescendant={null}
-                aria-label="Write citation…"
-                aria-multiline={true}
-                aria-owns={null}
-                className="rich-text block-editor-rich-text__editable wp-block-quote__citation"
-                contentEditable={true}
-                onBlur={[Function]}
-                onCompositionEnd={[Function]}
-                onCompositionStart={[Function]}
-                onFocus={[Function]}
-                onInput={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseUp={[Function]}
-                onPaste={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-                role="textbox"
-                style={
-                  Object {
-                    "whiteSpace": "pre-wrap",
-                  }
-                }
-                suppressContentEditableWarning={true}
-              />,
-            ]
-          </ForwardRef>
-        </ForwardRef(RichTextWrapper)>
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            role="textbox"
+            style={
+              Object {
+                "whiteSpace": "pre-wrap",
+              }
+            }
+            suppressContentEditableWarning={true}
+          />,
+        ]
       </blockquote>,
     ],
     Array [
