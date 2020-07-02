@@ -5,7 +5,7 @@ import { isReusableBlock } from '@wordpress/blocks';
  * @returns {*} keyword
  */
 export function getNameKeyword(name) {
-	return name.split('/').slice(-1)[ 0 ]; // eslint-disable-line no-magic-numbers
+  return name.split('/').slice(-1)[ 0 ]; // eslint-disable-line no-magic-numbers
 }
 
 /**
@@ -13,7 +13,7 @@ export function getNameKeyword(name) {
  * @returns {any[]} unique array
  */
 export function arrayUniq(arr) {
-	return [...new Set(arr)];
+  return [...new Set(arr)];
 }
 
 /**
@@ -21,7 +21,7 @@ export function arrayUniq(arr) {
  * @returns {object} object
  */
 export function copyObj(obj) {
-	return Object.assign({}, obj);
+  return Object.assign({}, obj);
 }
 
 /**
@@ -31,9 +31,9 @@ export function copyObj(obj) {
  * @returns {object} state
  */
 export function createState(state, key, value) {
-	const newState  = copyObj(state);
-	newState[ key ] = value;
-	return newState;
+  const newState  = copyObj(state);
+  newState[ key ] = value;
+  return newState;
 }
 
 /**
@@ -41,5 +41,5 @@ export function createState(state, key, value) {
  * @returns {boolean} start or not
  */
 export function isTargetBlockType(blockOrType) {
-	return !!(blockOrType && blockOrType.name) && !isReusableBlock(blockOrType) && 'core/template' !== blockOrType.name;
+  return !!(blockOrType && blockOrType.name) && !isReusableBlock(blockOrType) && 'core/template' !== blockOrType.name;
 }

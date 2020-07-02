@@ -4,7 +4,7 @@
  * @returns {*|Array} keywords
  */
 export function getKeywords(state, name) {
-	return state.keywords[ name ] || [];
+  return state.keywords[ name ] || [];
 }
 
 /**
@@ -13,5 +13,5 @@ export function getKeywords(state, name) {
  * @returns {*|boolean} initialized?
  */
 export function hasInitialized(state, name) {
-	return state.hasInitialized[ name ] || false;
+  return state.hasInitialized[ name ] || false;
 }
