@@ -13,8 +13,6 @@
 
 This plugin make it easy to change block's search keywords.
 
-[Demonstration](https://technote-space.github.io/change-block-keywords)
-
 [Latest version](https://github.com/technote-space/change-block-keywords/releases/latest/download/release.zip)
 
 ## Table of Contents

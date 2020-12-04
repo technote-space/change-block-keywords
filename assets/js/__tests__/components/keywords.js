@@ -1,9 +1,10 @@
 /* eslint-disable no-magic-numbers */
-import { BlockEdit, InspectorAdvancedControls } from '@wordpress/block-editor';
+import React from 'react';
+import { BlockEdit, BlockList, InspectorAdvancedControls } from '@wordpress/block-editor';
 import { SlotFillProvider } from '@wordpress/components';
 import { createHigherOrderComponent } from '@wordpress/compose';
 import { Fragment } from '@wordpress/element';
-import { addFilter, removeFilter } from '@wordpress/hooks';
+import { addFilter } from '@wordpress/hooks';
 import { create } from '@wordpress/rich-text';
 import { select } from '@wordpress/data';
 import { ENTER } from '@wordpress/keycodes';
@@ -16,14 +17,12 @@ import '../../src/store';
 beforeAll(() => {
   addFilter('editor.BlockEdit', 'components-test/keywords-test', createHigherOrderComponent(BlockEdit => props =>
     <Fragment>
-      <BlockEdit {...props}/>
-      <Keywords props={props}/>
+      <BlockList>
+        <BlockEdit {...props}/>
+      </BlockList>
+      <Keywords props={props} label="Set Search Keywords"/>
     </Fragment>,
   ));
-});
-
-afterAll(() => {
-  removeFilter('editor.BlockEdit', 'components-test/keywords-test');
 });
 
 describe('Keywords', () => {

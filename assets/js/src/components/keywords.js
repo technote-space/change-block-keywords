@@ -1,34 +1,26 @@
 import React from 'react';
-import { Helpers } from '@technote-space/gutenberg-utils';
 import { InspectorAdvancedControls } from '@wordpress/block-editor';
 import { FormTokenField } from '@wordpress/components';
-import { compose } from '@wordpress/compose';
-import { withSelect, withDispatch } from '@wordpress/data';
+import { useSelect, useDispatch } from '@wordpress/data';
+import { useMemo, useCallback } from '@wordpress/element';
 import { STORE_NAME } from '../store/constant';
-
-const { getTranslator } = Helpers;
-const translate         = getTranslator(cbkParams);
 
 /**
  * @param {object} props props
- * @param {function} keywords keywords
- * @param {function} setKeywords set keywords
  * @returns {Component} input keywords form
  * @constructor
  */
-const Keywords = ({ props, keywords, setKeywords }) => <InspectorAdvancedControls>
-  <FormTokenField
-    value={keywords(props)}
-    onChange={tokens => setKeywords(props, tokens)}
-    label={translate('Set Search Keywords')}
-  />
-</InspectorAdvancedControls>;
+const Keywords = ({ props: { name }, label }) => {
+  const keywords        = useSelect(select => select(STORE_NAME).getKeywords(name), [name]);
+  const { setKeywords } = useDispatch(STORE_NAME);
+  const onChange        = useCallback(keywords => setKeywords(name, keywords), [name]);
+  return useMemo(() => <InspectorAdvancedControls>
+    <FormTokenField
+      value={keywords}
+      onChange={onChange}
+      label={label}
+    />
+  </InspectorAdvancedControls>, [name, label, keywords]);
+};
 
-export default compose(
-  withSelect(select => ({
-    keywords: props => select(STORE_NAME).getKeywords(props.name),
-  })),
-  withDispatch(dispatch => ({
-    setKeywords: (props, keywords) => dispatch(STORE_NAME).setKeywords(props.name, keywords),
-  })),
-)(Keywords);
+export default Keywords;

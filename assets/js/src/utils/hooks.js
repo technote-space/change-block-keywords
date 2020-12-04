@@ -16,16 +16,18 @@ export function getNamespace(name) {
 }
 
 /**
+ * @param {string} label label
  * @returns {Component} component
  */
-export function getKeywordsFormComponent() {
+export function getKeywordsFormComponent(label) {
   return createHigherOrderComponent(BlockEdit => props => {
     if (!isTargetBlockType(props) || !props.isSelected) {
       return <BlockEdit {...props}/>;
     }
+
     return <Fragment>
       <BlockEdit {...props}/>
-      <Keywords props={props}/>
+      <Keywords props={props} label={label}/>
     </Fragment>;
   }, 'addKeywordEditor');
 }
