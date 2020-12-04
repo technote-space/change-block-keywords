@@ -20,7 +20,7 @@ beforeAll(() => {
       <BlockList>
         <BlockEdit {...props}/>
       </BlockList>
-      <Keywords props={props}/>
+      <Keywords props={props} label="Set Search Keywords"/>
     </Fragment>,
   ));
 });
