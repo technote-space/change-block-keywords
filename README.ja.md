@@ -13,8 +13,6 @@
 
 ブロック検索のキーワードを自由に設定できるようにします。  
 
-[デモ](https://technote-space.github.io/change-block-keywords)
-
 [最新バージョン](https://github.com/technote-space/change-block-keywords/releases/latest/download/release.zip)
 
 ## Table of Contents
