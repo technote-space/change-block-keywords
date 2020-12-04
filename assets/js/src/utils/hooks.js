@@ -16,10 +16,9 @@ export function getNamespace(name) {
 }
 
 /**
- * @param {string} label label
  * @returns {Component} component
  */
-export function getKeywordsFormComponent(label) {
+export function getKeywordsFormComponent() {
   return createHigherOrderComponent(BlockEdit => props => {
     if (!isTargetBlockType(props) || !props.isSelected) {
       return <BlockEdit {...props}/>;
@@ -27,7 +26,7 @@ export function getKeywordsFormComponent(label) {
 
     return <Fragment>
       <BlockEdit {...props}/>
-      <Keywords props={props} label={label}/>
+      <Keywords props={props}/>
     </Fragment>;
   }, 'addKeywordEditor');
 }
