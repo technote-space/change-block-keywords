@@ -22,7 +22,7 @@
     "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
     "squizlabs/php_codesniffer": "*",
     "wp-coding-standards/wpcs": "*",
-    "phpmd/phpmd": "^2.8",
+    "phpmd/phpmd": "^2.9",
     "phpcompatibility/phpcompatibility-wp": "*",
     "phpunit/phpunit": "^4.8 || ^5.7 || ^7.5",
     "phake/phake": "^2.3 || ^3.1"
