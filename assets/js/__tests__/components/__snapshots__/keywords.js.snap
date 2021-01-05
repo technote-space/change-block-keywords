@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Keywords should render Keywords: input 1`] = `
-Array [
+<div
+  className="components-drop-zone__provider"
+>
   <div
     className="components-form-token-field"
     onFocus={[Function]}
@@ -56,12 +58,12 @@ Array [
             focusable={false}
             height={24}
             role="img"
-            viewBox="-2 -2 24 24"
+            viewBox="0 0 24 24"
             width={24}
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8zm5 11l-3-3 3-3-2-2-3 3-3-3-2 2 3 3-3 3 2 2 3-3 3 3z"
+              d="M13 11.9l3.3-3.4-1.1-1-3.2 3.3-3.2-3.3-1.1 1 3.3 3.4-3.5 3.6 1 1L12 13l3.5 3.5 1-1z"
             />
           </svg>
         </button>
@@ -88,15 +90,12 @@ Array [
     >
       Separate with commas or the Enter key.
     </p>
-  </div>,
+  </div>
   Array [
-    <div
-      onMouseMove={[Function]}
-    >
+    Array [
+      "",
       <div
         className="block-editor-block-list__layout is-root-container"
-        onDragStart={[Function]}
-        onFocus={[Function]}
       >
         Array [
           "",
@@ -111,6 +110,7 @@ Array [
             >
               <textarea
                 aria-label="Add block"
+                async={false}
                 className="block-editor-default-block-appender__content"
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -154,18 +154,20 @@ Array [
             </div>
           </div>,
         ]
-      </div>
-    </div>,
+      </div>,
+    ],
     Array [
       "",
       "",
     ],
-  ],
-]
+  ]
+</div>
 `;
 
 exports[`Keywords should render Keywords: render 1`] = `
-Array [
+<div
+  className="components-drop-zone__provider"
+>
   <div
     className="components-form-token-field"
     onFocus={[Function]}
@@ -207,15 +209,12 @@ Array [
     >
       Separate with commas or the Enter key.
     </p>
-  </div>,
+  </div>
   Array [
-    <div
-      onMouseMove={[Function]}
-    >
+    Array [
+      "",
       <div
         className="block-editor-block-list__layout is-root-container"
-        onDragStart={[Function]}
-        onFocus={[Function]}
       >
         Array [
           "",
@@ -230,6 +229,7 @@ Array [
             >
               <textarea
                 aria-label="Add block"
+                async={false}
                 className="block-editor-default-block-appender__content"
                 onChange={[Function]}
                 onFocus={[Function]}
@@ -273,12 +273,12 @@ Array [
             </div>
           </div>,
         ]
-      </div>
-    </div>,
+      </div>,
+    ],
     Array [
       "",
       "",
     ],
-  ],
-]
+  ]
+</div>
 `;

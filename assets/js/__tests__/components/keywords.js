@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import React from 'react';
 import { BlockEdit, BlockList, InspectorAdvancedControls } from '@wordpress/block-editor';
-import { SlotFillProvider } from '@wordpress/components';
+import { SlotFillProvider, DropZoneProvider } from '@wordpress/components';
 import { createHigherOrderComponent } from '@wordpress/compose';
 import { Fragment } from '@wordpress/element';
 import { addFilter } from '@wordpress/hooks';
@@ -29,21 +29,23 @@ describe('Keywords', () => {
   it('should render Keywords', () => {
     const wrapper = mount(
       <SlotFillProvider>
-        <InspectorAdvancedControls.Slot/>
+        <DropZoneProvider>
+          <InspectorAdvancedControls.Slot/>
 
-        <BlockEdit
-          name="core/quote"
-          isSelected={true}
-          attributes={({
-            className: 'test-block-edit',
-            content: create({
-              text: 'test',
-              start: 0,
-              end: 1,
-              formats: [[], [], [], []],
-            }),
-          })}
-        />
+          <BlockEdit
+            name="core/quote"
+            isSelected={true}
+            attributes={({
+              className: 'test-block-edit',
+              content: create({
+                text: 'test',
+                start: 0,
+                end: 1,
+                formats: [[], [], [], []],
+              }),
+            })}
+          />
+        </DropZoneProvider>
       </SlotFillProvider>,
     );
 
