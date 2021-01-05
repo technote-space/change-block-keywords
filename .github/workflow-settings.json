@@ -18,7 +18,7 @@
   "BRANCH_PREFIX": "release/",
   "ANNOTATION_EXCLUDE_PATTERNS": [
     "warning jest",
-    "warning babel-jest",
+    "warning babel",
     "Cloning into",
     "has unmet peer dependency",
     "has incorrect peer dependency"
