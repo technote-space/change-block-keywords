@@ -123,6 +123,7 @@ exports[`Keywords should render Keywords: input 1`] = `
                 className="components-dropdown block-editor-inserter"
               >
                 <button
+                  aria-describedby={null}
                   aria-expanded={false}
                   aria-haspopup="true"
                   aria-label="Add block"
@@ -242,6 +243,7 @@ exports[`Keywords should render Keywords: render 1`] = `
                 className="components-dropdown block-editor-inserter"
               >
                 <button
+                  aria-describedby={null}
                   aria-expanded={false}
                   aria-haspopup="true"
                   aria-label="Add block"
